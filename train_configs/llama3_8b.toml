@@ -19,7 +19,7 @@ save_tb_folder = "tb"
 name = "llama3"
 flavor = "8B"
 norm_type = "rmsnorm"  # layernorm / np_layernorm / rmsnorm / fused_rmsnorm
-tokenizer_path = "/mnt/torchtitan/huggingface/original/tokenizer.model"
+tokenizer_path = "/app/torchtitan/.cache/huggingface/original/tokenizer.model"
 
 [optimizer]
 name = "AdamW"
